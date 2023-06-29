@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  height: 100vh;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+.border-div {
+  border-radius: 25px;
+  border: 40px;
+  width: 600px;
+  height: 130px;
+  background-color: hsl(10, 79%, 65%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 310px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.sum {
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+span {
+  color: hsl(33, 100%, 98%);
+}
+
+.border-gep {
+  gap: 60px;
+}
+
+.balance {
+  font-size: 20px;
+}
