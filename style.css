@@ -9,6 +9,7 @@
   background-color: hsl(27, 66%, 92%);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .border-div {
@@ -58,6 +59,7 @@ span {
   flex-direction: column;
   /* align-items: center; */
   /* justify-content: center; */
+  gap: 5px;
 }
 
 .mon {
@@ -160,4 +162,26 @@ hr {
   display: flex;
   align-self: center;
   width: 460px;
+}
+
+.divi {
+  height: 5px;
+}
+
+.month {
+  border: 15px solid hsl(33, 100%, 98%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+}
+
+h2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-size: 40px;
 }
