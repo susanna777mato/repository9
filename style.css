@@ -9,25 +9,24 @@
   background-color: hsl(27, 66%, 92%);
   display: flex;
   justify-content: center;
-  padding-top: 120px;
 }
 
 .border-div {
   border-radius: 25px;
-  border: 40px;
-  width: 600px;
-  height: 130px;
+  border: 40px solid hsl(10, 79%, 65%);
+  width: 550px;
+  height: 120px;
   background-color: hsl(10, 79%, 65%);
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 310px;
+  gap: 250px;
 }
 
+/* 
 .title {
-  display: flex;
-  flex-direction: column;
-}
+  /* display: flex;
+  flex-direction: column; */
 
 .sum {
   font-size: 35px;
@@ -38,10 +37,127 @@ span {
   color: hsl(33, 100%, 98%);
 }
 
-.border-gep {
-  gap: 60px;
-}
-
 .balance {
   font-size: 20px;
+}
+
+.border2 {
+  border-radius: 20px;
+  flex-direction: column;
+  display: flex;
+  border: 30px solid hsl(33, 100%, 98%);
+  width: 550px;
+  height: 460px;
+  background-color: hsl(33, 100%, 98%);
+  /* padding-top: 10px;
+  padding-left: 20px; */
+}
+
+.everything {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.mon {
+  border-radius: 9px;
+  background-color: hsl(10, 79%, 65%);
+  width: 55px;
+  height: 65px;
+}
+
+.week-days {
+  width: 470px;
+  height: 260px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  /* border-bottom: 2px solid hsl(28, 10%, 53%); */
+  cursor: pointer;
+}
+
+.tue {
+  width: 53px;
+  height: 120px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 9px;
+}
+
+.wed {
+  width: 53px;
+  height: 190px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 9px;
+}
+
+.thu {
+  width: 53px;
+  height: 105px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 9px;
+}
+
+.fri {
+  width: 53px;
+  height: 80px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 9px;
+}
+
+.sat {
+  width: 53px;
+  height: 160px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 9px;
+}
+
+.sun {
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 53px;
+  height: 100px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 9px;
+}
+
+.pre {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 26px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.days {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: hsl(28, 10%, 53%);
+  justify-content: space-around;
+  font-size: 15px;
+}
+
+.diagrama {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all {
+  cursor: pointer;
+}
+
+.all:hover {
+  background-color: hsl(186, 34%, 60%);
+  transition: 0.5s ease;
+}
+
+hr {
+  color: hsl(28, 10%, 53%);
+  display: flex;
+  align-self: center;
+  width: 460px;
 }
